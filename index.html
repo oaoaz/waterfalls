@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>瀑布流</title>
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	#container {
+		/*border: 1px solid red;*/
+		margin: 50px auto 0;
+		position: relative;
+	}
+	#container img{
+		position: absolute;
+	}
+	#loader{
+		width: 100%;
+		height: 60px;
+		background: url('loader.gif') no-repeat center #fff;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		/*display: none;*/
+	}
+</style>
+<script type="text/javascript" src='min.js'></script>
+<script type="text/javascript" src='jquery-1.9.1.min.js'></script>
+</head>
+<body>
+	<div id='container'></div>
+	<div id='loader'></div>
+</body>
+</html>
